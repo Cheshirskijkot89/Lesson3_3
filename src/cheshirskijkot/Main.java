@@ -18,7 +18,7 @@ public class Main {
 			System.out.println("leap year");
 		} else if (year % 100 == 0) {
 			System.out.println("non-leap year");
-		} else if (year % 14 == 0) {
+		} else if (year % 4 == 0) {
 			System.out.println("leap year");
 		} else {
 			System.out.println("non-leap year");
